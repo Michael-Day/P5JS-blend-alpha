@@ -1,6 +1,7 @@
 ## P5JS-blend-alpha
 
-This is a demonstration of a technique in [p5.js](http://p5js.org/) for drawing images with alpha transparency and blend modes at the same time. 
+This is a demonstration of a technique in [p5.js](http://p5js.org/) for drawing images with alpha transparency and [blend modes](http://p5js.org/reference/#/p5/blendMode) at the same time.Using blendMode() seems to affect the whole drawing context, and prevents the use of tint() as a way of adding transparency.
+
 It involves the use of three [p5.images](http://p5js.org/reference/#/p5.Image): one to hold the source image, 
 one to hold alpha information, and one to hold the two merged together. 
 
